@@ -1,0 +1,49 @@
+.item1, .item2, .item3, .item4, .item5, .item6, .item7{
+	background: url(../img/menu-sprites.png) no-repeat;
+	display: inline-block;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.item1{
+	background-position: -87px -26px ;
+	width: 27px;
+	height: 26px;
+}
+
+.item2{
+	background-position: -92px -73px ;
+	width: 16px;
+	height: 28px;
+}
+
+.item3{
+	background-position: -86px -120px ;
+	width: 25px;
+	height: 29px;
+}
+
+.item4{
+	background-position: -88px -171px ;
+	width: 21px;
+	height: 26px;
+}
+
+.item5{
+	background-position: -86px -222px ;
+	width: 21px;
+	height: 26px;
+}
+
+.item6{
+	background-position: -88px -284px ;
+	width: 21px;
+	height: 19px;
+}
+
+.item7{
+	background-position: -84px -324px ;
+	width: 22px;
+	height: 25px;
+}
+

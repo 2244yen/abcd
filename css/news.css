@@ -1,0 +1,209 @@
+
+/***
+* Style for news site
+*/
+
+/***
+* Main Content
+*/
+
+.main-content-left {
+	background-color: #fff;
+}
+.news-title {
+	background-color: #ee2e95;
+	color: #fff;
+	padding: 5px 60px 5px 10px;
+	margin-top: 30px;
+	font-size: 20px;
+	display: inline-block;
+}
+.post-wrapper {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+/**Main content left**/
+.post-title {
+	font-size: 26px;
+	color: #ed2891;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	line-height: 1.2;
+}
+.post-title a  {
+	text-decoration: none;
+	color: #ed2891;
+	cursor: pointer;
+}
+.post-content {
+	font-size: 16px;
+	line-height: 1.5;
+}
+.post-thumbnail, .post img {
+	width: 100%;
+	transition: all 0.7 ease-in-out; 
+}
+.post img:hover {
+	opacity: 0.6;
+}
+
+/**Main content right**/
+.main-content-right .post:first-child {
+	margin-top: 0;
+}
+.main-content-right .post {
+	border-bottom: 1px dashed #959595;
+	padding-bottom: 9px;
+	margin-top: 15px;
+}
+.post-info-right {
+	padding-left: 10px;
+	padding-right: 15px;
+}
+.post-info-right .post-title {
+	font-size: 18px;
+}
+.date {
+	font-style: italic;
+}
+
+/***
+* Sidebar
+*/
+.news-sidebar-title {
+	font-size: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 5px;
+	background-color: #1e6f0b;
+	display: block;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.news-sidebar-post {
+	overflow: hidden;
+}
+.news-sidebar-post img {
+	width: 100%;
+	margin-top: 10px;
+	-webkit-transition: all 0.7s;
+	transition: all 0.7s;
+}
+.news-sidebar-post img:hover {
+	transform: scale(1.1);
+}
+.sidebar-post-title {
+	display: block;
+	margin-top: 10px !important;
+	color: #010101;
+}
+.sidebar-post-price, .sidebar-post-title {
+	margin: 0;
+	padding: 0;
+}
+.sidebar-post-price {
+	color: #ff2b2b;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+/**
+* Hot products in news 
+*/
+.other-title-wrapper .title {
+	background-color: transparent;
+	color: #3a3939;	
+}
+.other-title-wrapper .hr-title-left,
+.other-title-wrapper .hr-title-right {
+	border: 1px solid #3a3939 !important;
+}
+
+/**
+* Responsive for article
+*/
+
+/* #Tablet (Landscape) 1024px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+
+	/***
+     *Same Products
+    */
+   
+}
+
+
+/* #Tablet (Portrait) 768px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	/***
+     *Same Products
+    */
+    .other-title-wrapper .title {
+    	width: 30%;
+    }
+    .post-title {
+	    font-size: 24px;
+	}
+}
+
+
+/* #Mobile (Landscape) 480px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	/***
+     *Same Products
+    */
+    .custom-col {
+		padding-left: 15px;
+		padding-right: 15px;
+    }
+    .mobile-hot-products {
+    	display: block !important;
+    }
+    .other-title-wrapper .title {
+    	width: 60%;
+    }
+    .news .sidebar {
+    	display: none;
+    }
+    .post-title {
+	    font-size: 22px;
+	}
+}
+
+
+/*  #Mobile (Portrait) 320px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+
+    /***
+     *Same Products
+    */
+    .custom-col {
+		padding-left: 15px;
+		padding-right: 15px;
+    }
+    .mobile-hot-products {
+    	display: block !important;
+    }
+    .other-title-wrapper .title {
+    	width: 70%;
+    }
+    .news .sidebar {
+    	display: none;
+    }
+    .post-title {
+	    font-size: 22px;
+	}
+}
+
+

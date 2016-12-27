@@ -1,0 +1,97 @@
+/**
+* Add Font
+*/
+
+@font-face {
+	font-family: "UVNVanBold";
+	src: url("../fonts/14-13888-UVNVan_B.TTF");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/**
+* Common styles
+*/
+
+body {
+	font-size: 12px;
+	font-family: Arial;
+	color: #202020;
+	background-color: #f3f3f3;
+	overflow-x: hidden;
+	background-image: none;
+	min-width: 320px;
+	min-height: 100%;
+}
+
+#container .container {
+    max-width: 1152px;
+    margin: auto;
+    font-family: Arial, 'Myriad Pro';
+}
+
+a:hover {
+	color: #35b517 !important;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.custom-col {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.custom-col-md {
+	padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.product-border-1 {
+	border-top: 3px solid #ee2c93 !important;
+}
+
+.product-bg-1 {
+	background-color: #ee2c93 !important;
+}
+
+.product-border-3 {
+	border-top: 3px solid #f5911b !important;
+}
+
+.product-bg-3 {
+	background-color: #f5911b !important;
+}
+
+.product-border-4 {
+	border-top: 3px solid #934e9f !important;
+}
+
+.product-bg-4 {
+	background-color: #934e9f !important;
+}
+
+.product-border-5 {
+	border-top: 3px solid #469faf !important;
+}
+
+.product-bg-5 {
+	background-color: #469faf !important;
+}
+
+.product-border-6 {
+	border-top: 3px solid #e5cf40 !important;
+}
+
+.product-bg-6 {
+	background-color: #e5cf40 !important;
+}
+
+.product-border-7 {
+	border-top: 3px solid #e55e5b !important;
+}
+
+.product-bg-7 {
+	background-color: #e55e5b !important;
+}

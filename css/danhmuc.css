@@ -1,0 +1,249 @@
+/* ==========================================================================
+   Style for category page
+   ========================================================================== */
+
+
+/* ============
+    Breadcrumbs
+    ===========*/
+
+.breadcrumbs {
+    list-style: none;
+    float: left;
+    margin-left: -15px;
+    padding-left: 0;
+}
+
+.breadcrumbs li {
+    float: left;
+    padding: 0 5px;
+    margin-top: 8px;
+}
+
+.breadcrumbs li:not(:last-child) {
+    border-right: 1px solid #000;
+}
+
+.breadcrumbs li:last-child {
+    color: #35b517;
+}
+
+.breadcrumbs li a {
+    color: #000;
+}
+
+/* ============
+    Site bar
+===========*/
+
+.category-sidebar {
+    width: 208px;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    height: auto;
+    padding-left: 15px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+/* ============
+     Main Content
+    ===========*/
+
+.content {
+    width: calc(100% - 208px - 15px);
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 40px;
+    padding-left: 30px;
+    background-color: #fff;
+    background-image: none;
+    margin-left: 15px;
+}
+
+.header-content {
+    margin-top: 20px;
+    margin-bottom: 0;
+    float: left;
+}
+
+.sort-list {
+    margin-top: 20px;
+    margin-right: 35px;
+    float: right;
+}
+
+.sort-list select {
+    height: 30px;
+    border-radius: 2px;
+}
+
+.catelogies-products {
+    margin-top: 12px;
+    border-top: 2px solid #1e6f0b;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.product-detail {
+    height: auto;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.product-detail:hover {
+    box-shadow: 0px 0px 15px #888888;
+}
+
+.product-detail a:hover {
+    text-decoration: none;
+}
+
+.img-product {
+    padding: 52px 28px 5px 28px;
+    width: 100%;
+}
+
+.product-name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ed2891;
+    margin-bottom: 0;
+}
+
+.description-product {
+    text-align: center;
+    font-size: 15px;
+    color: #606060;
+}
+
+.pri-pro {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ff480b;
+}
+
+.my-rating {
+    position: relative;
+    float: left;
+    left: 50%;
+    margin-left: -62.5px;
+    margin-bottom: 10px;
+}
+
+.my-rating>.jq-star {
+    float: left;
+}
+
+.my-rating>.jq-star>svg {
+    height: 25px;
+    width: 25px;
+}
+
+.best-sell {
+    font-size: 11.42px;
+    background-color: #ff480b;
+    margin-bottom: 0;
+    padding: 8px 25px;
+    color: #fff;
+    position: relative;
+    left: 50%;
+    margin-left: -71.5px;
+}
+
+.product-tag {
+    position: absolute;
+    top: 22px;
+    right: 28px;
+}
+
+
+/**
+----Responsive------
+*/
+
+
+/* #Tablet (Landscape) 1024px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+
+    /***
+     * danhmuc
+    */
+}
+
+
+/* #Tablet (Portrait) 768px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+    /***
+     * danhmuc
+    */
+
+    .header-content {
+        font-size: 18px;
+        margin-top: 25px;
+    }
+    .sort-list {
+        margin-right: 0px;
+    }
+    
+}
+
+
+/* #Mobile (Landscape) 480px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    /***
+     * danhmuc
+    */
+
+    .breadcrumbs {
+        display: none;
+    }
+    .category-sidebar {
+        display: none;
+    }
+    .content {
+        width: 100%;
+    }
+    
+    .sort-list {
+        margin-right: 0;
+    }
+}
+
+
+/*  #Mobile (Portrait) 320px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+
+    /***
+     * danhmuc
+    */
+    
+    .breadcrumbs {
+        display: none;
+    }
+    .category-sidebar {
+        display: none;
+    }
+    .content {
+        width: 100%;
+    }
+    
+    .sort-list {
+        margin-right: 0;
+    }
+}

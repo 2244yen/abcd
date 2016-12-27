@@ -1,0 +1,175 @@
+/**========================
+* Style for article
+===========================*/
+
+/**
+* Post
+*/
+.article .main-content-left {
+    padding-left: 15px;
+}
+.article .main-content-right {
+    display: none;
+}
+.article .post-content {
+    padding-bottom: 30px;
+}
+.article .post-title {
+    font-size: 30px;
+}
+.social-plugin {
+    margin-top: 30px;
+}
+.comment-plugin {
+    background-color: #fff;
+    margin-top: 50px;
+}
+.like-btn {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/**
+* List Same Product
+*/
+.custom-hot-products .hot-product-price{
+    margin-bottom: 5px;
+    color: #ff632c;
+    background-color: transparent;
+    display: table;
+    margin: auto;
+}
+.custom-hot-products .title-wrapper {
+    padding: 20px 25px;
+}
+.buy-now {
+    background-color: #ff632c;
+    color: #fff !important;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 0 0 #c23a0a;
+    font-family: Arial;
+    text-decoration: none !important;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    opacity: 0.8;
+    display: table;
+    margin: auto;
+}
+.buy-now:hover  {
+    color: #fff !important;
+    opacity: 1;
+}
+
+/**====================
+* Style for contact
+=======================*/
+
+.contact {
+    margin-top: 50px;
+}
+.contact .comment {
+    margin: 0 0 0 -15px;
+    padding: 0;
+    display: block;
+    margin-bottom: 50px;
+}
+
+/**
+* Responsive 
+*/
+
+/* #Tablet (Landscape) 1024px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+	/***
+     * Main content
+    */
+    .article .main-content-right {
+    	display: none;
+    }
+}
+
+
+/* #Tablet (Portrait) 768px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	/***
+     * Main content
+    */
+    .article .main-content-right {
+    	display: none;
+    }
+}
+
+
+/* #Mobile (Landscape) 480px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    
+	/***
+     * Main content
+    */
+    .main-content-left {
+        background-color: transparent;
+    }
+   	.article .main-content-right {
+    	display: block;
+    }
+    .article .sidebar {
+        display: none;
+    }
+    .social-plugin {
+        padding: 0 15px;
+    }
+    
+    /*Contact form*/
+    .contact .comment {
+        margin: 0 -15px;
+        border: none;
+    }
+    .contact-info {
+        margin-top: 50px;
+    }
+}
+
+
+/*  #Mobile (Portrait) 320px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+
+
+    /***
+     * Main content
+    */
+    .main-content-left {
+        background-color: transparent;
+    }
+    .article .main-content-right {
+    	display: block;
+    }
+    .article .sidebar {
+        display: none;
+    }
+    .social-plugin {
+        padding: 0 15px;
+    }
+    
+    /*Contact form*/
+    .contact .comment {
+        margin: 0 -15px;
+        border: none;
+    }
+    .contact-info {
+        margin-top: 50px;
+    }
+}
+
