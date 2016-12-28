@@ -1,14 +1,13 @@
 (function ($) {
 
-    //check url of the website
-    var url = window.location.pathname;
-    var pathArray = window.location.pathname.split( '/' );
+    /*======================
+        Fix menu and go to top
+    ======================*/
 
-    if (pathArray[2].search('index') > -1 || pathArray[2].search('danhmuc') > -1 || pathArray[2] == '') {
+    if ($('body').hasClass('home') || $('body').hasClass('archive')) {
         $("#header-dropdown").addClass('menu-fix');
     }
 
-    //Fix menu and go to top
     var a = $('.freezepanel').offset().top;
     $('.freezepanel').parent().height(parseInt($('.freezepanel').height()) + parseInt($('.freezepanel').css('margin-bottom')));
     $(window).scroll(function() {
@@ -22,7 +21,7 @@
         } else {
             $('.freezepanel').removeClass('freezing');
             $('.brand-logo').removeClass('fix');
-            if (pathArray[2].search('index') > -1 || pathArray[2].search('danhmuc') > -1 || pathArray[2] == '') {
+            if ($('body').hasClass('home') || $('body').hasClass('archive')) {
                 $("#header-dropdown").addClass('menu-fix');
                 $('#header-dropdown').hide();
             }

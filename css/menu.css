@@ -162,6 +162,9 @@ header {
     position: relative;
     text-align: right;
 }
+.cart-btn i, .cart-btn1 i {
+    cursor: pointer;
+}
 .cart-btn:hover i {
     color: #fff !important;
 }

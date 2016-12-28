@@ -20,7 +20,17 @@
 		slidesToScroll: 1,
 		autoplay: false,
   		infinite: true,
-  		arrows: false
+  		arrows: false,
+  		responsive: [
+		    {
+		     	breakpoint: 520,
+		     	settings: {
+		        	slidesToShow: 4,
+					slidesToScroll: 1,
+					autoplay: false,
+		      	}
+		    }
+  		]
 	});
 
 	/**

@@ -33,16 +33,7 @@
 	});
 
 	/*Banner footer for mobile*/
-
 	
-
-    // var url = window.location.pathname;
-    // var pathArray = window.location.pathname.split( '/' );
-
-    // if (pathArray[2].search('sanpham') > -1 ) {
-    //     $(".shopping-btn").css('visibility', 'visible');
-    // }
-
 	/*var data1 = $('#data1').text();
 	var text1 = data1.length - 2;
 	var res = data1.substring(0,text1);
