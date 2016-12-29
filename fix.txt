@@ -3,4 +3,16 @@
 
 2. Sửa muốn được tư vấn thành Yêu cầu gọi lại
 
-Slick không responsive kích thước ảnh, 
+3. thay banner footer
+
+4. Xoa dia diem tren thanh menu, thêm class row bao phần main menu, thay css của main menu
+
+5. Sửa trang home
+	- Thay hình ảnh đại diện của danh mục thành slider, sửa css phần List product trong Home.css
+	- Thêm ở phần responsive ở #Tablet (Portrait) 768px
+	.product {
+    	height: 350px;
+    }
+    .cate-slider img {
+    	height: 346px;
+    }

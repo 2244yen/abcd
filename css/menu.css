@@ -48,26 +48,21 @@ header {
     border-radius: 0;
     border: 0;
 }
-
 .main-menu {
     list-style: none;
     margin: 0;
     padding-left: 0;
     float: left;
-    margin-left: -15px;
-    margin-right: -15px;
+    width: 100%;
 }
-
 .main-menu a {
     color: #fff;
 }
-
 .main-menu>li {
     float: left;
     margin-top: 1.2%;
     color: #fff;
 }
-
 .icon-btn {
     display: block;
     width: 22px;
@@ -77,20 +72,17 @@ header {
     background-color: #fff;
     font-size: 14px;
 }
-
 .cate-btn {
     position: relative;
     color: #fff;
-    padding-right: 18px;
     margin-top: 20px!important;
     cursor: pointer;
+    width:20%;
 }
-
 .cate-btn>span {
     float: left;
     margin-right: 10px;
 }
-
 .cate-btn>p {
     float: left;
     margin: 0;
@@ -98,16 +90,13 @@ header {
     font-size: 14px;
     font-weight: bold;
 }
-
 .brand-logo {
     margin-top: -20px!important;
-    padding-right: 24px;
+    width: 14%;
 }
-
 .form-search {
-    padding-right: 18px;
+    width: 32%;
 }
-
 .form-search ul {
     list-style: none;
     margin: 0;
@@ -115,23 +104,20 @@ header {
     float: left;
     border-radius: 5px;
 }
-
 .form-search ul li {
     float: left;
     height: 38px;
 }
-
 .input-product-name input {
     outline: 0;
     border: 0;
     height: 100%;
-    width: 241px;
+    width: 310px;
     padding-left: 5px;
     border-radius: 5px 0 0 5px;
     font-style: italic;
     color: #000;
 }
-
 .search-product-name button {
     outline: 0;
     border: 0;
@@ -139,26 +125,17 @@ header {
     height: 100%;
     border-radius: 0 5px 5px 0;
 }
-
 .hotline {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
-    padding-right: 32px;
+    width: 29%;
 }
-
-.location {
-    font-size: 19px;
-    padding-right: 40px;
-}
-
-.location img {
-    margin-right: 5px;
-}
-
 .cart-btn {
     font-size: 30px;
     position: relative;
     text-align: right;
+    width: 5%;
+    float: right !important;
 }
 .cart-btn i, .cart-btn1 i {
     cursor: pointer;
@@ -180,23 +157,18 @@ header {
     top: 3px;
     right: 0;
 }
-
 .freezepanel.freezing {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 9999;
 }
-
 .brand-logo.fix {
     margin-top: 0!important;
-    padding-right: 50px;
 }
-
 .brand-logo.fix img {
     height: 64px;
 }
-
 
 /* =================================
     Catelogies on Main menu
@@ -699,31 +671,29 @@ Main menu mobi
         Menu
     ===========*/
     
-    .cate-btn,
-    .brand-logo {
-        padding-right: 3px;
-    }
     .brand-logo.fix {
         padding-right: 30px;
     }
     @media  (max-width: 1200px) {
-        .cate-btn>p {
-            display: none !important;
+        .form-search ul li input {
+            width: 230px;
         }
     }
     @media (max-width: 991px){
+        .cate-btn {
+            width: 25%;
+        }
+        .form-search {
+            width: 29%;
+        }
         .hotline {
-            font-size: 14px;
-        }
-        .location {
-            font-size: 14px;
-        }
-        .main-menu>li {
-            padding-right: 5px !important;
+            font-size: 15px;
+            width: 27%;
         }
         .form-search ul li input {
-            width: 200px;
+            width: 170px;
         }
+        
     }
 }
 
@@ -738,23 +708,20 @@ Main menu mobi
     .cate-btn>p {
         display: none;
     }
-    .brand-logo {
-        width: 120px;
-    }
     .hotline {
-        font-size: 14px;
+        font-size: 15px;
     }
-    .location {
-        font-size: 14px;
+    .cate-btn {
+        width: 8%;
     }
-    .main-menu>li:not(last-child){
-        margin-right: 8px;
+    .brand-logo {
+        width: 22%;
     }
-    .cate-btn {  
-        padding-right: 8px;
+    .form-search {
+        width: 36%;
     }
     .form-search ul li input {
-        width: 200px;
+        width: 220px;
     }
     .brand-logo.fix {
         padding-right: 30px;
@@ -763,11 +730,8 @@ Main menu mobi
         .brand-logo.fix {
             padding-right: 15px;
         }
-    }
-    @media (max-width: 910px) {
-        .main-menu>li {
-            margin-right: 0 !important;
-            padding-right: 0 !important;
+        .form-search ul li input {
+            width: 190px;
         }
     }
 }
@@ -780,7 +744,9 @@ Main menu mobi
     /* ============
     Menu
     ===========*/
-
+    .cate-btn {
+        width: 10%;
+    }
     .nav-top-menu {
         display: none;
     }
@@ -833,7 +799,7 @@ Main menu mobi
     Menu
     ===========*/
     .cate-btn {
-        padding-right: 10px;
+        width: 10%;
     }
     .nav-top-menu {
         display: none;
