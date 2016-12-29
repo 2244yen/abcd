@@ -80,7 +80,7 @@ Style for product page
     font-weight: bold;
     color: #ff632c;
     padding-top: 20px;
-    padding-left: 90px;
+    padding-left: 85px;
     text-align: center;
 }
 
@@ -105,7 +105,7 @@ Style for product page
     color: #3eaca2;
     padding-top: 9px;
     padding-left: 85px;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     text-align: center;
 }
 
@@ -114,6 +114,9 @@ Style for product page
     left: 50%;
     position: absolute;
     margin-left: -30px;
+    border: none;
+    height: 32px;
+    border-radius: 5px;
 }
 
 .btn3 {
@@ -132,17 +135,16 @@ Style for product page
 }
 
 .btn3 p {
-    font-size: 10.45px;
+    font-size: 13px;
     font-weight: bold;
     color: #d9646d;
     text-align: center;
-    padding-top: 20px;
-    padding-left: 100px;
-    margin-bottom: 5px;
+    padding-top: 15px;
+    padding-left: 85px;
 }
 
-.btn3 p span {
-    font-size: 15.39px;
+.btn3 span {
+    font-size: 20px;
 }
 
 /* ========================
@@ -318,49 +320,58 @@ Custom slider product
 ======= Sitebar ======
 =================== */
 
-
 .product-sidebar ul {
     list-style: none;
     padding-left: 0;
     margin: 0;
 }
-
 .product-on-cart {
     background: #fff;
     margin-right: -15px;
     padding-right: 15px;
     padding-top: 30px;
 }
-
-.product-on-cart .advisory p {
-    font-size: 11px;
-    margin-bottom: 3px;
+.product-on-cart-fix {
+    padding: 0;
+    margin: 0;
+    padding-top: 30px;
+    position: fixed;
+    right: 0;
+    top: 25%;
+    width: 300px;
+    z-index: 999;
+    transition: right 0.3s ease-in-out;
 }
-
+.order-btn-right, .order-btn-left {
+    display: none;
+}
+.product-on-cart-fix .order-btn-right, 
+.product-on-cart-fix .order-btn-left  {
+    position: absolute;
+    left: -20px;
+    top: -10px;
+}.product-on-cart-fix .order-btn-right {
+    display: block;
+}
 .cart-sitebar {
     padding: 10px 5px;
 }
-
 .detail-products>p {
-    font-size: 13.53px;
+    font-size: 14px;
 }
-
 .detail-products>p>span {
     font-size: 20.27px;
     color: #ff4200;
 }
-
 .detail-products>input {
     width: 48px;
 }
-
 .seen-products {
     background: #fff;
     margin-right: -15px;
     margin-top: 30px;
     border-radius: 5px;
 }
-
 .seen-products h4 {
     font-size: 15.05px;
     font-weight: bold;
@@ -369,21 +380,17 @@ Custom slider product
     background: #1e6f0b;
     padding: 12px 0;
 }
-
 .seen-pro-sitebar {
     margin-bottom: 20px;
 }
-
 .seen-pro-sitebar a {
     font-size: 11px;
     color: #202020;
     text-decoration: none;
 }
-
 .seen-pro-sitebar span {
     font-weight: bold;
 }
-
 .seen-pro-sitebar p:last-child {
     color: #ff0000;
 }
@@ -391,6 +398,7 @@ Custom slider product
 /* ====================================
 ======= Introduce other products ======
 ==================================== */
+
 .other-products {
     background: #fff;
     margin-top: 50px!important;

@@ -1,0 +1,6 @@
+
+1. Khung đặt hàng bên phải được ghim cố định khi kéo xuống
+
+2. Sửa muốn được tư vấn thành Yêu cầu gọi lại
+
+Slick không responsive kích thước ảnh, 

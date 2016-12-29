@@ -1,5 +1,17 @@
 (function ($) {
 
+	/*slider product in home*/
+
+	$('.cate-slider').slick({
+		dots: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+  		infinite: true,
+  		arrows: false,
+  		autoplaySpeed: 2000
+	});
+
 	/**
 	* RESPONSIVE
 	*/
