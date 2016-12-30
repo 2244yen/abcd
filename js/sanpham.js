@@ -39,7 +39,7 @@
 	$(".order-btn-right").click(function(e) {
 		e.preventDefault();
 		$(".product-on-cart-fix").css({
-			'right': '-220px'
+			'right': '-230px'
 		});
 		$('.order-btn-left').show();
 		$('.order-btn-right').hide();

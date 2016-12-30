@@ -350,7 +350,8 @@ Custom slider product
     position: absolute;
     left: -20px;
     top: -10px;
-}.product-on-cart-fix .order-btn-right {
+}
+.product-on-cart-fix .order-btn-right {
     display: block;
 }
 .cart-sitebar {
@@ -369,7 +370,6 @@ Custom slider product
 .seen-products {
     background: #fff;
     margin-right: -15px;
-    margin-top: 30px;
     border-radius: 5px;
 }
 .seen-products h4 {
@@ -489,7 +489,7 @@ Custom slider product
 }
 
 /* =================
-======= Modal ======
+        Modal 
 ================= */
 
 #myModal {
@@ -752,19 +752,24 @@ Custom slider product
 ----Responsive------
 */
 
-
 /* #Tablet (Landscape) 1024px
 ---------------------------------------------------------------------------------------------------------------*/
 
 @media only screen and (min-width: 960px) and (max-width: 1240px) {
     /***
- * sanpham
- */
+    * sanpham
+    */
+    .btn3 span {
+        font-size: 16px;
+    }
+    @media (max-width: 1200px) {
+        .btn3 p, .buynow p, .advisory p {
+            padding-left: 65px;
+        }
+    }
     @media (max-width: 991px) {
         .desc-product .advisory input {
             width: 20%;
-            position: relative;
-            left: 50%;
             margin-left: -30px;
         }
         .wrap-advisory .advisory input {
@@ -777,21 +782,18 @@ Custom slider product
         .form-info input {
             width: 64%;
         }
-    }
-    .detail-other-products {
-        height: 322px;
-    }
-    .cart-modal {
-        width: 90%;
-    }
-
-    @media (max-width: 991px) {
         .product-sidebar {
             display: none;
         }
         .advisory input {
             width: 20%;
         }
+    }
+    .detail-other-products {
+        height: 322px;
+    }
+    .cart-modal {
+        width: 90%;
     }
 
     /*Success modal*/
@@ -821,17 +823,11 @@ Custom slider product
     /***
     * sanpham
     */
-    .desc-product .advisory input {
-        /*width: 20%;*/
-        position: absolute;
-        left: 50%;
-        margin-left: -30px;
-    }
     .wrap-advisory .advisory input {
-        width: 30%;
+        width: 150px;
     }
     .advisory input {
-        width: 17%;
+        width: 145px;
     }
     .form-info {
         height: 40px;
@@ -867,7 +863,6 @@ Custom slider product
         margin-bottom: 30px;
         font-size: 18px;
     }
-
 }
 
 
@@ -906,15 +901,7 @@ Custom slider product
         width: 95%;
     }
     .advisory input {
-        width: 23%;
-        position: absolute;
-        left: 50%;
-        margin-left: -35px;
-    }
-    @media (max-width: 600px) {
-        .advisory input {
-            width: 26%;
-        }
+        width: 150px;
     }
     .detail-other-products {
         height: 270px;
@@ -994,10 +981,7 @@ Custom slider product
         width: auto;
     }
     .advisory input {
-        width: 35%;
-        position: absolute;
-        left: 50%;
-        margin-left: -30px;
+        width: 150px;
     }
     .desc-product {
         margin-left: 0;

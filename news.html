@@ -208,13 +208,14 @@
                                                        Collagen hàm lượng cao
                                                     </a></li>
                                                 </ul>
+                                            </li>
                                             <li>
                                                 <a href="danhmuc.html">
                                                     <img src="img/skin.png"> CHĂM SÓC DA
                                                 </a>
-                                                <img class="icon-add2" src="img/icon-add.png">
-                                                <img class="icon-subtract2" src="img/icon-subtract.png">
-                                                <ul class="cate-sub2">
+                                                <img class="icon-add" src="img/icon-add.png">
+                                                <img class="icon-subtract" src="img/icon-subtract.png">
+                                                <ul class="cate-sub">
                                                     <li><img src="img/icon-arrow.png">
                                                         <a href="sanpham.html">Trẻ hóa da nhờ trứng cá Caviar</a>
                                                     </li>
@@ -234,9 +235,9 @@
                                             </li>
                                             <li>
                                                 <a href="danhmuc.html"><img src="img/diet.png"> GIẢM CÂN</a>
-                                                <img class="icon-add3" src="img/icon-add.png">
-                                                <img class="icon-subtract3" src="img/icon-subtract.png">
-                                                <ul class="cate-sub3">
+                                                <img class="icon-add" src="img/icon-add.png">
+                                                <img class="icon-subtract" src="img/icon-subtract.png">
+                                                <ul class="cate-sub">
                                                      <li><img src="img/icon-arrow.png">
                                                         <a href="sanpham.html">Viên uống giảm cân</a>
                                                     </li>
@@ -247,23 +248,23 @@
                                             </li>
                                             <li>
                                                 <a href="danhmuc.html"><img src="img/hair.png"> MI, MÀY, TÓC</a>
-                                                <img class="icon-add4" src="img/icon-add.png">
-                                                <img class="icon-subtract4" src="img/icon-subtract.png">
+                                                <img class="icon-add" src="img/icon-add.png">
+                                                <img class="icon-subtract" src="img/icon-subtract.png">
                                             </li>
                                             <li>
                                                 <a href="danhmuc.html">
                                                     <img src="img/makeup.png" href=""> TRANG ĐIỂM
                                                 </a>
-                                                <img class="icon-add5" src="img/icon-add.png">
-                                                <img class="icon-subtract5" src="img/icon-subtract.png">
+                                                <img class="icon-add" src="img/icon-add.png">
+                                                <img class="icon-subtract" src="img/icon-subtract.png">
                                             </li>
                                             <li>
                                                 <a href="danhmuc.html">
                                                     <img src="img/care.png"> CHĂM SÓC SỨC KHỎE
                                                 </a>
-                                                <img class="icon-add6" src="img/icon-add.png">
-                                                <img class="icon-subtract6" src="img/icon-subtract.png">
-                                                <ul class="cate-sub6">
+                                                <img class="icon-add" src="img/icon-add.png">
+                                                <img class="icon-subtract" src="img/icon-subtract.png">
+                                                <ul class="cate-sub">
                                                     <li><img src="img/icon-arrow.png">
                                                         <a href="sanpham.html">Bồi bổ sức khỏe</a>
                                                     </li>
@@ -279,8 +280,8 @@
                                                 <a href="danhmuc.html">
                                                     <img src="img/toyen.png"> TỔ YẾN
                                                 </a>
-                                                <img class="icon-add7" src="img/icon-add.png">
-                                                <img class="icon-subtract7" src="img/icon-subtract.png">
+                                                <img class="icon-add" src="img/icon-add.png">
+                                                <img class="icon-subtract" src="img/icon-subtract.png">
                                             </li>
                                         </ul>
                                     </li>
@@ -870,7 +871,110 @@
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer><!--end main footer-->
+
+        <!-- ================================================== -->
+        <!-- ====================== Modal ===================== -->
+        <!-- ================================================== -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog cart-modal" role="document">
+                <div class="modal-content">
+                    <div class="modal-header header-cart">
+                        <button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close"><img src="img/sanpham/btn-close.png"></button>
+                        <h4 class="modal-title cart-title" id="myModalLabel">Bạn có 2 sản phẩm trong giỏ hàng</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form name="" method=""> 
+                            <table class="ordered-product">
+                                <tr>
+                                    <th></th>
+                                    <th>Giá</th>
+                                    <th>Số lượng</th>
+                                    <th>Tổng cộng</th>
+                                </tr>
+                                <tr>
+                                    <td><img class="img-responsive" src="img/sanpham/other-product4.jpg">
+                                        <p class="name-product-cart">Thực phẩm chức năng SlimFit USA – Viên giảm cân nổi tiếng từ Mỹ</p>
+                                        <p class="status">Còn hàng</p>
+                                    </td>
+                                    <td>1,080,000 đ</td>
+                                    <td>
+                                        <input id="qtn1" class="quantity-product-cart" type="number" name="quantity" value="1" min="1">
+                                    </td>
+                                    <td>
+                                        1,080,000 đ
+                                        <a href="" class="delete">
+                                            <i class="fa fa-trash" aria-hidden="true"></i> Xóa
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img class="img-responsive" src="img/sanpham/other-product4.jpg">
+                                        <p class="name-product-cart">Thực phẩm chức năng SlimFit USA – Viên giảm cân nổi tiếng từ Mỹ</p>
+                                        <p class="status">Còn hàng</p>
+                                    </td>
+                                    <td>1,080,000 đ</td>
+                                    <td>
+                                        <input id="qtn1" class="quantity-product-cart" type="number" name="quantity" value="1" min="1">
+                                    </td>
+                                    <td>
+                                        1,080,000 đ
+                                        <a href="" class="delete">
+                                            <i class="fa fa-trash" aria-hidden="true"></i> Xóa
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                            <p class="address-custom"><img src="img/sanpham/icon5.png"> Địa chỉ nhận hàng :</p>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 get-infomation">
+                                    <div class="custom-infomation">
+                                        Họ tên*:
+                                        <input type="text" name="custom-name">
+                                    </div>
+                                    <div class="custom-infomation">
+                                        Số ĐT*:
+                                        <input type="tel" name="custom-phone">
+                                    </div>
+                                    <div class="custom-infomation">
+                                        Địa chỉ*:
+                                        <input type="text" name="custom-address">
+                                    </div>
+                                    <div class="custom-infomation">
+                                        Email (nếu có):
+                                        <input type="email" name="custom-email">
+                                    </div>
+                                    <div class="custom-infomation">
+                                        Ghi chú:
+                                        <input type="text" name="custom-note">
+                                    </div>
+                                    <p>Vui lòng kiểm tra lại thông tin trước khi Tiến Hành Đặt Hàng. </p>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <p class="title-payment">THANH TOÁN</p>
+                                    <table class="payment">
+                                        <tr>
+                                            <td>Tổng cộng</td>
+                                            <td class="cost">1,080,000 đ</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Thành tiền</td>
+                                            <td class="cost"><span>1,080,000 đ</span></td>
+                                        </tr>
+                                    </table>
+                                    <button type="submit" class="btn get-order">Tiến Hành Đặt Hàng</button>
+                                    <p class="get-other-product"><a href="#">Thêm Sản Phẩm Khác</a></p>
+                                </div>
+                            </div>
+                        </form>
+                    </div><!--/end modal-body-->
+                </div><!--/end modal-content-->
+            </div><!--/end modal-->
+        </div>
+        <!-- ================================================== -->
+        <!-- ==================== End Modal =================== -->
+        <!-- ================================================== -->
+        
     </div>
     <script>
     window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')

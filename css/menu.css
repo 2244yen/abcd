@@ -477,26 +477,14 @@ Main menu mobi
     margin-right: 8px;
 }
 
-.icon-add,
-.icon-add2,
-.icon-add3,
-.icon-add4,
-.icon-add5,
-.icon-add6,
-.icon-add7 {
+.icon-add {
     position: absolute;
     top: 10px;
     right: 2px;
     cursor: pointer;
 }
 
-.icon-subtract,
-.icon-subtract2,
-.icon-subtract3,
-.icon-subtract4,
-.icon-subtract5,
-.icon-subtract6,
-.icon-subtract7 {
+.icon-subtract {
     position: absolute;
     top: 10px;
     right: 2px;
@@ -504,13 +492,7 @@ Main menu mobi
     cursor: pointer;
 }
 
-.cate-sub,
-.cate-sub2,
-.cate-sub3,
-.cate-sub4,
-.cate-sub5,
-.cate-sub6,
-.cate-sub7 {
+.cate-sub {
     display: none;
     padding: 0;
     list-style: none;
@@ -518,69 +500,27 @@ Main menu mobi
     margin-left: -8px;
 }
 
-.cate-sub li,
-.cate-sub2 li,
-.cate-sub3 li,
-.cate-sub4 li,
-.cate-sub5 li,
-.cate-sub6 li,
-.cate-sub7 li {
+.cate-sub li {
     padding: 12px 0;
     padding-left: 35px;
 }
 
 .cate-sub li:hover,
-.cate-sub li:active,
-.cate-sub2 li:hover,
-.cate-sub2 li:active,
-.cate-sub3 li:hover,
-.cate-sub3 li:active,
-.cate-sub4 li:hover,
-.cate-sub4 li:active,
-.cate-sub5 li:hover,
-.cate-sub5 li:active,
-.cate-sub6 li:hover,
-.cate-sub6 li:active,
-.cate-sub7 li:hover,
-.cate-sub7 li:active {
+.cate-sub li:active {
     background: #ddf3d8;
 }
 
 .cate-sub li a:hover,
-.cate-sub li a:active,
-.cate-sub2 li a:hover,
-.cate-sub2 li a:active,
-.cate-sub3 li a:hover,
-.cate-sub3 li a:active,
-.cate-sub4 li a:hover,
-.cate-sub4 li a:active,
-.cate-sub5 li a:hover,
-.cate-sub5 li a:active,
-.cate-sub6 li a:hover,
-.cate-sub6 li a:active,
-.cate-sub7 li a:hover,
-.cate-sub7 li a:active {
+.cate-sub li a:active {
     text-decoration: none;
     color: #606060;
 }
 
-.cate-sub>li>a,
-.cate-sub2>li>a,
-.cate-sub3>li>a,
-.cate-sub4>li>a,
-.cate-sub5>li>a,
-.cate-sub6>li>a,
-.cate-sub7>li>a {
+.cate-sub>li>a {
     color: #000;
 }
 
-.cate-sub>li>img,
-.cate-sub2>li>img,
-.cate-sub3>li>img,
-.cate-sub4>li>img,
-.cate-su5>li>img,
-.cate-sub6>li>img,
-.cate-sub7>li>img {
+.cate-sub>li>img {
     padding-right: 5px;
 }
 
@@ -703,7 +643,7 @@ Main menu mobi
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
     /* ============
-    Menu
+        Menu
     ===========*/
     .cate-btn>p {
         display: none;
@@ -817,7 +757,7 @@ Main menu mobi
         display: block;
     }
     .input-product-name {
-        width: 87%;
+        width: 83%;
     }
     .search-fix .input-product-name {
         width: 80%;
